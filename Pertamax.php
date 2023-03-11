@@ -1,5 +1,7 @@
 <php
 
+// add a new product to WooCommerce using $wpdb->insert() and complete all required fields
+
 global $wpdb;
 
 // Set up the product data
