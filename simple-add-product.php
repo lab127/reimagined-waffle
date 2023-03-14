@@ -1,4 +1,8 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+include_once '../wp-load.php';
 
 // add a new product to WooCommerce using $wpdb->insert() and complete all required fields
 
@@ -16,14 +20,14 @@ $product_data = array(
     'comment_status' => 'open',
     'ping_status' => 'closed',
     'post_password' => '',
-    'post_name' => 'product-slug',
+    'post_name' => 'dfsfa3243x-product-slug',
     'to_ping' => '',
     'pinged' => '',
     'post_modified' => current_time('mysql'),
     'post_modified_gmt' => current_time('mysql', 1),
     'post_content_filtered' => '',
     'post_parent' => 0,
-    'guid' => home_url('/').'product/product-slug/',
+    'guid' => home_url('/').'product/dfsfa3243x-product-slug/',
     'menu_order' => 0,
     'post_type' => 'product',
     'post_mime_type' => '',
@@ -59,7 +63,7 @@ foreach ( $product_meta_data as $key => $value ) {
 
 // Set up the product category data
 $category_data = array(
-    'term_id' => 1 // ID of the category you want to add the product to
+    'term_id' => 1 // Uncategorized - ID of the category you want to add the product to
 );
 
 // Insert the product category data into the wp_term_relationships table
