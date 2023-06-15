@@ -1,3 +1,5 @@
+# Ambil List File di Folder Google Drive
+
 1. buat new blank spreadsheet
 2. klik extension -> app script
 3. buat file script baru, dan beri nama baru
